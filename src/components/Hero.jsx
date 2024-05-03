@@ -3,7 +3,7 @@ import Nav from "./Nav";
 import Image from "next/image";
 export default function Hero() {
   return (
-    <div className="pb-lg-5 mb-1 pb-md-4 pb-3 min-vh-max-xl-100">
+    <div className="pb-lg-5 mb-1 pb-md-4 pb-3 min-vh-max-xl-100" id="home">
       <div className=" min-vh-xl-100 herobg mb-3 position-relative ">
         <Nav />
         <div className="arrowbox d-flex justify-content-center align-items-center">

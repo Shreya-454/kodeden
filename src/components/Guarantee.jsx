@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Call } from "./Icon";
 export default function Guarantee() {
   return (
-    <div className=" py-lg-5 py-md-4 py-3 position-relative">
+    <div className=" py-lg-5 py-md-4 py-3 position-relative" id="faq">
       <Image src="/assets/images/svg/arrow4.svg" alt="arrow" width={160} height={60} className="arrow4 position-absolute"/>
       <div className="container py-lg-5 py-md-4 py-3"> 
         <div className="row pt-2 flex-column-reverse flex-lg-row">

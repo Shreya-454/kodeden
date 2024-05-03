@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Program() {
     return(
-        <div className=" py-lg-5 py-md-4 py-2">
+        <div className=" py-lg-5 py-md-4 py-2" id="program">
 <div className="container py-lg-5 py-md-4 py-2">
 <div className="row pt-4 align-items-center">
 <div className="col-lg-6 d-flex justify-content-center d-lg-block">

@@ -24,32 +24,32 @@ export default function Nav() {
               <li onClick={() => setshow(!show)}>
                 <a
                   className="text-grey font-jost text-16 fw-medium lh-23 nav-text"
-                  href="#about">
+                  href="#home">
                   Home
                 </a>
               </li>
               <li onClick={() => setshow(!show)}>
                 <a className=" text-grey font-jost text-16 fw-medium lh-23 nav-text"
-                  href="#team">
+                  href="#about">
                   About
                 </a>
               </li>
               <li onClick={() => setshow(!show)}>
                 <a className=" text-grey font-jost text-16 fw-medium lh-23 nav-text"
-                  href="#roadmap"
+                  href="#program"
                 >
                   Program
                 </a>
               </li>
               <li onClick={() => setshow(!show)}>
                 <a className="text-grey font-jost text-16 fw-medium lh-23 nav-text"
-                  href="#roadmap">
+                  href="#software">
                   How it works
                 </a>
               </li>
               <li onClick={() => setshow(!show)}>
                 <a
-                  className=" text-grey font-jost text-16 fw-medium lh-23 nav-text" href="#roadmap">
+                  className=" text-grey font-jost text-16 fw-medium lh-23 nav-text" href="#faq">
                   FAQs
                 </a>
               </li>

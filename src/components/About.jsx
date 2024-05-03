@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Call } from "./Icon";
 export default function About() {
   return (
-    <div className=" py-lg-5 py-md-4 py-3 position-relative z-1">
+    <div className=" py-lg-5 py-md-4 py-3 position-relative z-1" id="about">
       <Image src="assets/images/svg/arrow2.svg" alt="arrow" width={160} height={60} className="arrow2 position-absolute z-n1 d-none d-lg-block"/>
       <div className="container pb-lg-5 pb-md-4 pb-3 pt-1">
         <div className="row pb-lg-5 pb-md-4 pb-3 flex-column-reverse flex-lg-row">
