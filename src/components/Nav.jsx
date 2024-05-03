@@ -1,14 +1,16 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import React from "react";
 
 export default function Nav() {
   const [show, setshow] = useState(true);
+ useEffect(()=>{
   if (show === false) {
     document.body.classList.add("overflow_hidden");
   } else {
     document.body.classList.remove("overflow_hidden");
   }
+ })
   return (
     <>
       <nav className=" pt-18 position-relative z-3">
