@@ -1,15 +1,15 @@
 "use client"
 import "bootstrap/dist/css/bootstrap.css"
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Software from "./components/Software";
-import Program from "./components/Program";
-import Students from "./components/Students";
-import Guarantee from "./components/Guarantee";
-import We from "./components/We";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Software from "../components/Software";
+import Program from "../components/Program";
+import Students from "../components/Students";
+import Guarantee from "../components/Guarantee";
+import We from "../components/We";
 import { useEffect, useState } from "react";
-import Preloader from "./components/Preloader";
-import Backtotop from "./components/Backtotop";
+import Preloader from "../components/Preloader";
+import Backtotop from "../components/Backtotop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
