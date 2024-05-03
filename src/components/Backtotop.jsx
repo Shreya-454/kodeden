@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Uparrow } from "./Icon";
+import React from "react";
 
 export default function Backtotop() {
   const top = () => {
