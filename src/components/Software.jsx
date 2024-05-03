@@ -21,7 +21,7 @@ const carddata = [
 ]
 export default function Software() {
     const card = carddata.map((data,i) => (
-        <div className="col-lg-4 col-md-6 d-flex justify-content-center mt-4">
+        <div key={i} className="col-lg-4 col-md-6 d-flex justify-content-center mt-4">
         <div className="num-card w-100"  data-aos="zoom-in">
             <div className=" d-flex justify-content-between align-items-end mb-1">
 <h3 className=" font-jost text-30 text-grey lh-47 fw-semibold mb-0 ">{data.num}</h3>
