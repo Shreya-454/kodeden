@@ -43,7 +43,7 @@ export default function Home() {
   <Students/>
 <Guarantee/>
 <We/>
-<Backtotop/>
+{/* <Backtotop/> */}
 </div>
     )}
     </div>
