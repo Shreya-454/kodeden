@@ -21,7 +21,7 @@ const carddata = [
 ]
 export default function Software() {
     const card = carddata.map((data,i) => (
-        <div key={i} className="col-lg-4 col-md-6 d-flex justify-content-center mt-4" id="software">
+        <div key={i} className="col-lg-4 col-md-6 d-flex justify-content-center mt-4" >
         <div className="num-card w-100"  data-aos="zoom-in">
             <div className=" d-flex justify-content-between align-items-end mb-1">
 <h3 className=" font-jost text-30 text-grey lh-47 fw-semibold mb-0 ">{data.num}</h3>
@@ -35,7 +35,7 @@ export default function Software() {
     </div>
     ))
     return(
-        <div className=" py-lg-5 py-md-4 py-3 position-relative ">
+        <div className=" py-lg-5 py-md-4 py-3 position-relative " id="software">
             <Image src="/assets/images/svg/arrow3.svg" alt="arrow" width={160} height={60} className="arrow3 position-absolute d-none d-md-block" />
             <div className="container py-lg-5 py-md-4 py-3">
 <h2 className=" text-50 text-white font-jost lh-68 text-center mb-2"  data-aos="zoom-in">“From Confused to Coder”: Kodeden's <span className=" d-block">Exclusive 6-Month <span className=" text-gradient">Software Engineering</span> Course</span></h2>
