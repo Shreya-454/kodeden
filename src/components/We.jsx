@@ -9,7 +9,7 @@ export default function We() {
           Who Are <span className=" text-gradient">We</span>?
         </h2>
         <div className="row py-md-4 mb-1">
-          <div className="col-lg-6 d-flex justify-content-center">
+          <div className="col-lg-6 d-flex d-lg-block justify-content-center">
             <Image
               src="/assets/images/weimg.webp"
               alt="img"
