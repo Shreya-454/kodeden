@@ -96,10 +96,12 @@ What our <span className=" text-gradient">students</span> are saying
     </button>
 </div>
 <div className=" d-flex justify-content-center mt-lg-5 mt-md-4 mt-3">
-          <button className=" d-flex btn1 gap-10 align-items-center" data-aos="zoom-in">
-          <span><Call/></span>
-          <span className=" text-white font-jost text-18 fw-black text-uppercase mb-0 lh-26">Book a Call NOW</span>
-          </button>
+          <a href="tel:9873659749">
+              <button className=" d-flex btn1 gap-10 align-items-center" data-aos="zoom-in">
+              <span><Call/></span>
+              <span className=" text-white font-jost text-18 fw-black text-uppercase mb-0 lh-26">Book a Call NOW</span>
+              </button>
+          </a>
         </div>
 </div>
 
