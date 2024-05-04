@@ -193,9 +193,7 @@
     .max-w-lg-507{
         max-width: 507px;
     }
-    
   }
-
   @media (max-width:1024px) {
     .min-vh-max-xl-100{
         min-height: 100vh;
